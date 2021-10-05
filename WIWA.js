@@ -1,7 +1,12 @@
-function STINKY(){
-    document.getElementById("rubrik1").innerHTML="STINKY";
-}
+var x = 0; 
 
-function POOP(){
-document.getElementById("rubrik1").innerHTML="POOP";
-}s
+    function STINKY(){
+        if(x==0){
+            document.getElementById("STINKY_POOP").innerHTML="STINKY";
+            x++;
+        }
+        else if(x==1){
+            document.getElementById("STINKY_POOP").innerHTML="POOP";
+            x--;
+        }
+    }
